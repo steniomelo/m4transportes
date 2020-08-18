@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Logisti ">
+  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <title>Logisti </title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:400,700%7cWork+Sans:400,600,700&display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- =========================
+        Header
+    =========================== -->
+    <header id="header" class="header header-transparent">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="header__top-right d-none d-lg-block">
+            <ul class="list-unstyled d-flex justify-content-end align-items-center">
+              <li><i class="icon-phone"></i><span>+55 654 541 17</span></li>
+              <li>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle width-auto" id="langDrobdown" data-toggle="dropdown">
+                    <i class="icon-map"></i><span>En</span>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="langDrobdown">
+                    <a class="dropdown-item" href="#">Spain</a>
+                    <a class="dropdown-item" href="#">France</a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="request-quote.html" class="btn btn__white"><i class="icon-list"></i><span>Request A
+                    Quote</span></a></li>
+            </ul>
+          </div><!-- /.header-top-right -->
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav__item with-dropdown">
+                <a href="index.html" class="dropdown-toggle nav__item-link active">Home</a>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu">
+                  <li class="nav__item"><a href="index.html" class="nav__item-link">Home Main</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="home-modern.html" class="nav__item-link">Home Moderm</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Home classic</a></li>
+                  <!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="about-us.html" class="dropdown-toggle nav__item-link">Company</a>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu">
+                  <li class="nav__item"><a href="about-us.html" class="nav__item-link">About Us</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="why-us.html" class="nav__item-link">Why Choose Us</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="leadership-team.html" class="nav__item-link">Leadership Team</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="global-locations.html" class="nav__item-link">Global Locations</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="gallery.html" class="nav__item-link">Our Gallery</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="careers.html" class="nav__item-link">careers</a></li>
+                  <!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="services.html" class="dropdown-toggle nav__item-link">Services</a>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu wide-dropdown-menu">
+                  <li class="nav__item">
+                    <div class="row mx-0">
+                      <div class="col-sm-6 dropdown-menu-col">
+                        <h6>What We Do</h6>
+                        <ul class="nav flex-column">
+                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Warehousing</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Air Freight</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Ocean Freight</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Road Freight</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Supply Chain</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Packaging</a></li>
+                          <!-- /.nav-item -->
+                        </ul>
+                      </div><!-- /.col-sm-6 -->
+                      <div class="col-sm-6 dropdown-menu-col">
+                        <h6>Who We Serve</h6>
+                        <ul class="nav flex-column">
+                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Retail &
+                              Consumer</a></li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Sciences &
+                              Healthcare</a></li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Industrial &
+                              Chemical</a></li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Power
+                              Generation</a></li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Food &
+                              Beverage</a></li> <!-- /.nav-item -->
+                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Oil & Gas</a></li>
+                          <!-- /.nav-item -->
+                        </ul>
+                      </div><!-- /.col-sm-6 -->
+                    </div><!-- /.row -->
+                  </li><!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav__item">
+                <a href="rates.html" class="nav__item-link">rates</a>
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="case-studies-grid.html" class="dropdown-toggle nav__item-link">case studies</a>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu">
+                  <li class="nav__item"><a href="case-studies-default.html" class="nav__item-link">case studies
+                      default</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="case-studies-grid.html" class="nav__item-link">case studies grid</a>
+                  </li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="case-studies-carousel.html" class="nav__item-link">case studies
+                      carousel</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="case-studies-single.html" class="nav__item-link">case study Single</a>
+                  </li>
+                  <!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="blog-grid.html" class="dropdown-toggle nav__item-link">News & Media</a>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu">
+                  <li class="nav__item"><a href="blog-grid.html" class="nav__item-link">blog grid</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="blog-classic.html" class="nav__item-link">blog classic</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="blog-single-post.html" class="nav__item-link">blog single post</a></li>
+                  <!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav__item with-dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Features</a>
+                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu">
+                  <li class="nav__item"><a href="request-quote.html" class="nav__item-link">request a quote</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="track-shipment.html" class="nav__item-link">track and trace</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="find-location.html" class="nav__item-link">find Location</a></li>
+                  <!-- /.nav-item -->
+                  <li class="nav__item"><a href="faqs.html" class="nav__item-link">help and faqs</a></li>
+                  <!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav__item">
+                <a href="contacs.html" class="nav__item-link">Contact Us</a>
+              </li><!-- /.nav-item -->
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.navbar-collapse -->
+          <div class="navbar-modules">
+            <div class="modules__wrapper d-flex align-items-center">
+              <a href="#" class="module__btn module__btn-search"><i class="fa fa-search"></i></a>
+            </div><!-- /.modules-wrapper -->
+          </div><!-- /.navbar-modules -->
+        </div><!-- /.container -->
+      </nav><!-- /.navabr -->
+    </header><!-- /.Header -->
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section id="page-title" class="page-title bg-overlay bg-parallax">
+      <div class="bg-img"><img src="assets/images/page-titles/1.jpg" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">News & Media</li>
+              </ol>
+            </nav>
+            <h1 class="pagetitle__heading">News & Media</h1>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+
+    <!-- ======================
+      Blog classic
+    ========================= -->
+    <section id="blogClassic" class="blog blog-single  blog-classic  pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <aside class="sidebar mb-30">
+              <div class="widget widget-search">
+                <h5 class="widget__title">Search</h5>
+                <div class="widget__content">
+                  <form class="widget__form-search">
+                    <input type="text" class="form-control" placeholder="Shipment Type:">
+                    <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div><!-- /.widget-content -->
+              </div><!-- /.widget-search -->
+              <div class="widget widget-categories">
+                <h5 class="widget__title">categories</h5>
+                <div class="widget-content">
+                  <ul class="list-unstyled">
+                    <li><a href="#">Retail & Consumer</a></li>
+                    <li><a href="#">Sciences & Healthcare</a></li>
+                    <li><a href="#">Industrial & Chemical</a></li>
+                    <li><a href="#">Power Generation</a></li>
+                    <li><a href="#">Food & Beverage</a></li>
+                    <li><a href="#">Oil & Gas</a></li>
+                  </ul>
+                </div><!-- /.widget-content -->
+              </div><!-- /.widget-categories -->
+              <div class="widget widget-posts">
+                <h5 class="widget__title">Recent Posts</h5>
+                <div class="widget__content">
+                  <!-- post item #1 -->
+                  <div class="widget-post-item">
+                    <div class="widget__post-img">
+                      <a href="#"><img src="assets/images/blog/thumbs/1.jpg" alt="product"></a>
+                    </div><!-- /.widget-post-img -->
+                    <div class="widget__post-content">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <div class="widget__post-cat">
+                          <a href="#">Insights</a><a href="#">Management</a>
+                        </div><!-- /.widget-post-cat -->
+                        <span class="widget__post-date">Jan 20, 2019</span>
+                      </div>
+                      <h6 class="widget__post-title"><a href="#">Importers achieve cost savings through the First Sale
+                          rule!</a></h6>
+                    </div><!-- /.widget-post-content -->
+                  </div><!-- /.widget-post-item -->
+                  <!-- post item #2 -->
+                  <div class="widget-post-item">
+                    <div class="widget__post-img">
+                      <a href="#"><img src="assets/images/blog/thumbs/2.jpg" alt="product"></a>
+                    </div><!-- /.widget-post-img -->
+                    <div class="widget__post-content">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <div class="widget__post-cat">
+                          <a href="#">Warehousing</a><a href="#">Industry</a>
+                        </div><!-- /.widget-post-cat -->
+                        <span class="widget__post-date">Jan 23, 2019</span>
+                      </div>
+                      <h6 class="widget__post-title"><a href="#">Cargo flow through better supply chain visibility,
+                          control.</a></h6>
+                    </div><!-- /.widget-post-content -->
+                  </div><!-- /.widget-post-item -->
+                </div><!-- /.widget-content -->
+              </div><!-- /.widget-posts -->
+            </aside><!-- /.sidebar -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-8">
+            <!-- Blog Item #1 -->
+            <div class="blog-item text-center">
+              <div class="blog__img">
+                <a href="#">
+                  <img src="assets/images/blog/single/1.jpg" alt="blog image">
+                </a>
+              </div><!-- /.entry-img -->
+              <div class="blog__content">
+                <div class="blog__meta-cat">
+                  <a href="#">Logistics</a><a href="#">Distribution</a>
+                </div><!-- /.blog-meta-cat -->
+                <h4 class="blog__title"><a href="#">Importance of specialized focus in Projects, Oil & Gas
+                    Logistics?</a></h4>
+                <div class="blog__meta justify-content-center">
+                  <span class="blog__meta-author pr-20">By: <span>Mike Dooley</span></span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
+                </div><!-- /.blog-meta -->
+                <div class="divider__line divider__theme divider__center"></div>
+                <p class="blog__desc mb-0">The key to the success of any logistics contract is good logistics
+                  management. The key to good management is the ability to identify the needs of the client and the
+                  countries in which
+                  the work will take place, as well as being in a position to advise the best way forward. In today’s
+                  international and remote locations, experience and understanding of logistics operations and local
+                  networks is vital. With the many years of experience in our team, we have a detailed understanding of
+                  the criticality or every aspect of the logistics world.</p>
+              </div><!-- /.entry-content -->
+            </div><!-- /.blog-item -->
+            <!-- Blog Item #2 -->
+            <div class="blog-item text-center">
+              <div class="blog__img">
+                <a href="#">
+                  <img src="assets/images/blog/single/2.jpg" alt="blog image">
+                </a>
+              </div><!-- /.entry-img -->
+              <div class="blog__content">
+                <div class="blog__meta-cat">
+                  <a href="#">Warehousing</a><a href="#">Industry</a>
+                </div><!-- /.blog-meta-cat -->
+                <h4 class="blog__title"><a href="#">Cargo flow through better supply chain visibility, control.</a></h4>
+                <div class="blog__meta justify-content-center">
+                  <span class="blog__meta-author pr-20">By: <span>Mike Dooley</span></span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
+                </div><!-- /.blog-meta -->
+                <div class="divider__line divider__theme divider__center"></div>
+                <p class="blog__desc mb-0">Focus can provide logistics personnel to meet the needs of your company or
+                  project. From logistics managers to warehousemen, logistics controllers to transport coordinators, we
+                  can assist you. We provide personnel for one-off projects as well as long or short-term agency
+                  personnel, assist in the recruitment of permanent staff, or we can manage your logistics department
+                  for you. When travelling to a foreign country, most people are nervous of the obstacles that will be
+                  there for them to overcome. </p>
+              </div><!-- /.entry-content -->
+            </div><!-- /.blog-item -->
+            <!-- Blog Item #3 -->
+            <div class="blog-item text-center">
+              <div class="blog__img">
+                <a href="#">
+                  <img src="assets/images/blog/single/3.jpg" alt="blog image">
+                </a>
+              </div><!-- /.entry-img -->
+              <div class="blog__content">
+                <div class="blog__meta-cat">
+                  <a href="#">Logistics</a><a href="#">Distribution</a>
+                </div><!-- /.blog-meta-cat -->
+                <h4 class="blog__title"><a href="#">Importance of specialized focus in Projects, Oil & Gas Logistic</a>
+                </h4>
+                <div class="blog__meta justify-content-center">
+                  <span class="blog__meta-author pr-20">By: <span>Mike Dooley</span></span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
+                </div><!-- /.blog-meta -->
+                <div class="divider__line divider__theme divider__center"></div>
+                <p class="blog__desc mb-0">The Journal notes that last year, three successful proposals at Occidental,
+                  Exxon, and PPL “were the first to garner majority votes on resolutions for annual disclosure of the
+                  impact on business from global efforts to limit the average rise in temperatures. As investors such as
+                  BlackRock look deeper into strategy and climate change issues (and call them out specifically in their
+                  shareholder engagement activities), they are increasingly becoming more active in their support for
+                  calls for increased transparency.</p>
+              </div><!-- /.entry-content -->
+            </div><!-- /.blog-item -->
+            <!-- Blog Item #4 -->
+            <div class="blog-item text-center">
+              <div class="blog__img">
+                <a href="#">
+                  <img src="assets/images/blog/single/4.jpg" alt="blog image">
+                </a>
+              </div><!-- /.entry-img -->
+              <div class="blog__content">
+                <div class="blog__meta-cat">
+                  <a href="#">Logistics</a><a href="#">Distribution</a>
+                </div><!-- /.blog-meta-cat -->
+                <h4 class="blog__title"><a href="#">Changes to our Trade Credit Policy and Procedures</a></h4>
+                <div class="blog__meta justify-content-center">
+                  <span class="blog__meta-author pr-20">By: <span>Mike Dooley</span></span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
+                </div><!-- /.blog-meta -->
+                <div class="divider__line divider__theme divider__center"></div>
+                <p class="blog__desc mb-0">Pleased to announce our partnership with seo, a new on-line trade management
+                  system. The platform will provide us with a much deeper pool of research to assist with assessment of
+                  new credit applications and credit limits. In addition, the team will be working closely with our
+                  accounts receivable personnel to ensure that we optimise payment cycles, ensuring efficient cash flow
+                  management. Streamlining all areas of our business helps us keep costs down, which in turn is passed
+                  on to our clients.</p>
+              </div><!-- /.entry-content -->
+            </div><!-- /.blog-item -->
+            <nav class="pagination-area">
+              <ul class="pagination">
+                <li><a class="current" href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+              </ul>
+            </nav><!-- .pagination-area -->
+          </div><!-- /.col-lg-8 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.blog classic -->
+
+    <!-- ========================
+      Footer
+    ========================== -->
+    <footer id="footer" class="footer footer-1">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
+              <div class="footer__widget-content">
+                <img src="assets/images/logo/logo-dark.png" alt="logo" class="mb-30">
+              </div>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+              <h6 class="footer__widget-title">Who We Are</h6>
+              <div class="footer__widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Meet Our Team</a></li>
+                    <li><a href="#">News & Media</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </nav>
+              </div><!-- /.footer-widget-content -->
+            </div><!-- /.col-lg-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+              <h6 class="footer__widget-title">What We Do</h6>
+              <div class="footer__widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Warehousing</a></li>
+                    <li><a href="#">Air Freight</a></li>
+                    <li><a href="#">Ocean Freight</a></li>
+                    <li><a href="#">Road Freight</a></li>
+                    <li><a href="#">Supply Chain</a></li>
+                    <li><a href="#">Packaging</a></li>
+                  </ul>
+                </nav>
+              </div><!-- /.footer-widget-content -->
+            </div><!-- /.col-lg-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+              <h6 class="footer__widget-title">Who We Serve</h6>
+              <div class="footer__widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Retail & Consumer</a></li>
+                    <li><a href="#">Sciences & Healthcare</a></li>
+                    <li><a href="#">Industrial & Chemical</a></li>
+                    <li><a href="#">Power Generation</a></li>
+                    <li><a href="#">Food & Beverage</a></li>
+                    <li><a href="#">Oil & Gas</a></li>
+                  </ul>
+                </nav>
+              </div><!-- /.footer-widget-content -->
+            </div><!-- /.col-lg-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+              <h6 class="footer__widget-title">Quick Links</h6>
+              <div class="footer__widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Request A Quote</a></li>
+                    <li><a href="#">Track & Trace</a></li>
+                    <li><a href="#">Find A Location</a></li>
+                    <li><a href="#">Global Agents</a></li>
+                    <li><a href="#">Help & FAQ</a></li>
+                  </ul>
+                </nav>
+              </div><!-- /.footer-widget-content -->
+            </div><!-- /.col-lg-2 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.footer-top -->
+      <div class="container">
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-sm-12 col-md-9 col-lg-9">
+              <div class="footer__copyright">
+                <nav>
+                  <ul class="list-unstyled footer__copyright-links d-flex flex-wrap">
+                    <li><a href="#">Terms & Conditions </a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Employee login</a></li>
+                  </ul>
+                </nav>
+                <span>&copy; 2019 Logisti, with Love by</span>
+                <a href="http://themeforest.net/user/7oroof">7oroof.com</a>
+              </div><!-- /.Footer-copyright -->
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center">
+              <div class="social__icons justify-content-end w-100">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </div><!-- /.social-icons -->
+            </div><!-- /.col-lg-6 -->
+          </div><!-- /.row -->
+        </div><!-- /.Footer-bottom -->
+      </div><!-- /.container -->
+    </footer><!-- /.Footer -->
+    <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
+
+    <div class="module__search-container">
+      <i class="fa fa-times close-search"></i>
+      <form class="module__search-form">
+        <input type="text" class="search__input" placeholder="Search Here">
+        <button class="module__search-btn"><i class="fa fa-search"></i></button>
+      </form>
+    </div><!-- /.module-search-container -->
+
+  </div><!-- /.wrapper -->
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

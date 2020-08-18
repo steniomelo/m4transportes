@@ -1,0 +1,1 @@
+*[[:space:]].wpress filter=lfs diff=lfs merge=lfs -text
